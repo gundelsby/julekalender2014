@@ -1,0 +1,27 @@
+html {
+	margin: 0;
+	padding: 0;
+
+}
+h1 {
+	margin: 0;
+	padding: 8px;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: 1px dotted #ccc;
+}
+
+section {
+	margin: 0 auto 20px;
+	width: 980px;
+}
+
+fieldset {
+	border: none;
+}
+
+.result {
+	min-height: 40px;
+}
