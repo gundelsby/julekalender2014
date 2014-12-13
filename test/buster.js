@@ -3,7 +3,7 @@ var config = module.exports;
 config["Julekalender"] = {
     rootPath: "../",
     environment: "browser", // or "node"
-    libs: ["lib/**/*.js"],
+    libs: ["lib/**/*.js", "data/**/*.js"],
     sources: [
         "src/util/*.js",
         "src/**/*.js",
