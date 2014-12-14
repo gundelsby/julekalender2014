@@ -18,14 +18,9 @@ var julekalender = julekalender || {};
     			console.log(mirps.length);
     		},
     		isMirp : function (number) {
-    			var candidate = this.reverse(number);
+    			var candidate = math.reverse(number);
     			
     			return candidate !== number && math.isPrimeNumber(candidate);
-    		},
-    		reverse : function (number) {
-    			var reverse = ("" + number).split("").reverse().join("");
-
-    			return parseInt(reverse);
     		}
      	};
     }();

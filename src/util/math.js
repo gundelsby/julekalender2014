@@ -42,7 +42,12 @@ julekalender.util = julekalender.util || {};
 				}
 
 				return sum === product;
-			}
+			},
+    		reverse : function (number) {
+    			var reverse = ("" + number).split("").reverse().join("");
+
+    			return parseInt(reverse);
+    		}			
 		};
 	}();
 }());
