@@ -1,0 +1,13 @@
+(function() {
+    var luke19 = julekalender.luke19;
+    var testString = "JegtroringenkanleveetheltlivutenkjærlighetMenkjærlighetenharmangeansikterIhøstkomdetutenboksomheterErlikKjærlighetDenbeståravsamtalermedselgereavgatemagasinetsomnåeretablertimangenorskebyerAllehardeenhistorieåfortelleomkjærlighetsomnoeavgjørendeEntendetertilenpartneretfamiliemedlemenvennelleretkjæledyrMangeharopplevdåblisveketogselvåsvikteMenutrolignokblirikkekjærlighetsevnenødelagtallikevelDenbyggesoppigjengangpågangKjærligheteneretstedåfesteblikketDengirossretningognoeåstyreetterDengirossverdisommenneskerognoeåleveforPåsammemåtesomkjærligheteneretfundamentimenneskeliveterGrunnlovenetfundamentfornasjonenNorgeFor200årsidensamletengruppemennsegpåEidsvollforålagelovensomskullebligrunnlagettildetselvstendigeNorgeGrunnlovensomdengangblevedtattharutvikletsegipaktmedtidenogsikreridagdetnorskefolkrettigheterviletttarforgittihverdagenRettighetersommenneskerimangeandrelandbarekandrømmeomogsomdeslossformedlivetsominnsatsJeghåperatvigjennomjubileumsfeiringeni2014vilbliminnetomhvaGrunnlovenegentligbetyrforosssåvikanfortsetteåarbeideforverdienevårebådeherhjemmeoginternasjonaltJegharlysttilånevnenoeneksemplerpåhvordanGrunnlovenvirkerinnpåenkeltmenneskerslivTenkdegatduskriveretkritiskinnleggomlandetsstyrepåsosialemedier";
+
+    buster.testCase("luke19", {
+        "run program": function() {
+    		this.timeout = 60000;
+
+            console.log(luke19.getBiggestPalindrome(testString));
+            assert.isTrue(true);
+        }
+    });
+}());
